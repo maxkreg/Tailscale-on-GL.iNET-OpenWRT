@@ -39,6 +39,7 @@ _Big thanks to [Pat Regan](https://twitter.com/patsheadcom) for [figuring this o
 There is a different approch [described here](https://www.freeshell.de/~pcfreak/mdwiki/#!content/linux-generic/openwrt-with-openvpn/openwrt-mit-openvpn.md) where a dedicated firewall zone is created to route all traffic through OpenVPN, but I didn´t have any luck implementing the same principle with Tailscale.
 
 
-
 ## TO DO
-set up guest wifi to use WAN only (without access to tailscale). Ideas welcome :)
+Set up guest wifi to use WAN only (without access to tailscale). Ideas welcome :)
+
+There is the possibility to [have devices from the subnet local to the GL.iNET respond to requests from the subnet router´s subnet](https://forum.tailscale.com/t/is-subnet-routers-one-way/1051), although [static routes will have to be set](https://old.reddit.com/r/Tailscale/comments/xdtszi/subnet_routing_on_openwrt/iogmoxw/) and I did not explore this option.
