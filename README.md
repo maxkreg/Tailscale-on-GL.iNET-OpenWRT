@@ -3,6 +3,8 @@ I succeeded in getting a 'GL.iNet GL-AR300M16-Ext' to route all traffic via an e
 This does currently not work when the router is in wifi repeater mode. Use wired phone tethering or wired LAN.
 I used a GL-A300M16 because the "Mango" variant (N300) does not have sufficient space in ROM, [although there are ways around that.](https://blog.patshead.com/2020/10/tailscale-on-my-gl-dot-inet-mango-openwrt-router.html)
 
+EDIT: There now is native support for selected models (see [docs](https://docs.gl-inet.com/router/en/4/tutorials/tailscale/) )
+
 ## configure an exit node
 [according to the Tailscale documentation](https://tailscale.com/kb/1103/exit-nodes)
 
